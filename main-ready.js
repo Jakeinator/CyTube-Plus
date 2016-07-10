@@ -75,10 +75,10 @@ UI_ChannelName = 1;		// [&] channel custom brand name
 UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
 UI_RemoveLayoutMenu = 1;	// removing 'Layout' menu from the header
 UI_MOTDAutoLogo = 0;		// [&] big channel logo inserted into MOTD
-UI_MOTDTabs = 0;		// [&] switchable MOTD tabs application for homepage-like channel header
-UI_MOTDDelete = 0;		// deleting previous MOTD after accepting/loading script
-UI_RulesBtn = 0;		// [&] button displaying channel rules
-UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
+UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like channel header
+UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
+UI_RulesBtn = 1;		// [&] button displaying channel rules
+UI_AttentionBar = 1;		// [&] imageboard-style attention bar (requires external application)
 UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
@@ -89,8 +89,8 @@ UI_TitleBarDescription = 1;	// [&] custom title bar description (default "Curren
 UI_JoinText = 1;		// [&] chat message after user joining
 UI_LeaveText = 1;		// [&] chat message after user leaving
 UI_UserCommands = 1;		// [&] additional commands in the chat window
-UI_UserMarks = 0;		// [&] special signs/avatars before every message for defined users
-UI_Squavatars = 0;		// automatic squavatars (2-colored square avatars) before every message
+UI_UserMarks = 1;		// [&] special signs/avatars before every message for defined users
+UI_Squavatars = 1;		// automatic squavatars (2-colored square avatars) before every message
 				// [ REQUIRE: UI_UserMarks enabled ]
 UI_UsernameMark = 1;		// [&] custom mark after username (default ":")
 UI_MessagesSuffix = 0;		// [&] text added to random chat messages
@@ -99,7 +99,7 @@ UI_SoundFilters = 0;		// [&] chat sounds played after sending certain words
 UI_ChatSpeak = 1;		// text speaking after '!say' and '!mow' commands (english and polish)
 UI_IndependentEmotes = 0;	// [&] additional settings-independent emotes
 UI_IndependentFilters = 1;	// [&] additional settings-independent filters
-UI_FontsBtn = 0;		// button displaying box with clickable chat fonts
+UI_FontsBtn = 1;		// button displaying box with clickable chat fonts
 				// [ REQUIRE: INSTALLATION (see above) ]
 UI_UnicodeChars = 1;		// [&] additional buttons in the fonts panel with unicode characters
 				// [ REQUIRE: UI_FontsBtn enabled ]
@@ -107,26 +107,26 @@ UI_EmotesBtn = 1;		// button displaying box with clickable chat emotes
 UI_GroupEmotes = 1;		// [&] emotes panel pagination, display limited number of emotes at one time
 				// [ REQUIRE: UI_EmotesBtn enabled ]
 UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
-UI_ModPanel = 0;		// [&] panel with messages and help for moderators
+UI_ModPanel = 1;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 0;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
 UI_TransformationBtns = 1;	// player transformation buttons
 UI_ChannelDatabase = 0;		// [&] box with embed additional media database
 UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
-UI_ChannelTheme = 0;		// [&] additional default channel theme
+UI_ChannelTheme = 1;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
 UI_MediaControls = 1;		// embedded video preloaded controls
 				// [ REQUIRE: UI_EmbeddingMedia enabled ]
 UI_QuickCommandsBtns = 1;	// buttons with '/clear' and '/afk' functions
 UI_VolumeBtns = 1;		// additional volume buttons for YouTube player
-UI_EmptyCornerBackground = 0;	// [&] random background image for empty playlist row corner
+UI_EmptyCornerBackground = 1;	// [&] random background image for empty playlist row corner
 UI_ExtendedGetURLs = 1;		// extended 'Get URLs' function
 UI_DefaultNonTemp = 1;		// default unchecking "Add as temporary" checkbox after loading for registered users
-UI_CustomFooter = 0;		// [&] custom channel footer
+UI_CustomFooter = 1;		// [&] custom channel footer
 UI_CustomRightFooter = 0;	// [&] right-sided footer box
 UI_UserStatistics = 1;		// displaying in the footer user visits number and current online time
-UI_ExternalScript = 0;		// [&] additional external script file
+UI_ExternalScript = 1;		// [&] additional external script file
 UI_ChannelCache = 1;		// caching script emotes, additional media database and default gallery
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -143,13 +143,13 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
+Favicon_URL = 'http://pre10.deviantart.net/8032/th/pre/f/2014/032/3/4/doodle_for_kiwikuru_by_fleesy2-d74r4m3.png';
 
-MiniLogo_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
+MiniLogo_URL = 'http://i.imgur.com/UjqNIK3.gif';
 
-ChannelName_Caption = 'CyTube Plus';
+ChannelName_Caption = ' ';
 
-HeaderDropMenu_Title = 'Synch';
+HeaderDropMenu_Title = 'More';
 
 MOTDAutoLogo_Mode = 1;
 
@@ -159,15 +159,15 @@ RulesBtn_Caption = 'Read Channel Rules';
 
 AttentionBar_URL = '';
 
-ChannelAnnouncement_Title = 'Administration Message';
+ChannelAnnouncement_Title = 'IMPORTANT';
 
 TitleIcon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
-JoinText_Message = 'joined';
+JoinText_Message = 'joined say Hi';
 
-LeaveText_Message = 'left';
+LeaveText_Message = 'left :(';
 
 UsernameMark_Char = '>';
 
@@ -186,14 +186,14 @@ ExternalScript_URL = '';
 	/* -- arrays -- */
 
 HeaderDropMenu_Array = [
-['CyTube Servers', ''],
-['Calzoneman CyTube', 'http://cytu.be/'],
+['N/A', ''],
+['Synctube', 'http://synctube.org/'],
 ['6irc Synchtube', 'http://synchtube.6irc.net/'],
 ['CyTube Stuff', ''],
 ['Source code', 'https://github.com/calzoneman/sync'],
 ['FAQ', 'https://github.com/calzoneman/sync/wiki/Beginner%27s-Guide-and-FAQ'],
 ['IRC', 'http://webchat.6irc.net/?channels=chat,synchtube'],
-['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
+['Raid Forums', 'https://raidforums.com'],
 ];
 
 MOTDAutoLogo_Array = [
@@ -228,7 +228,7 @@ Memes_Array = [
 
 UserMarks_Array = {
 'ZimnyLech':	'<img src="https://dl.dropboxusercontent.com/s/89gv8fvyr49vnev/kobato-icon-small.jpg" height="25">', 
-'calzoneman':	'♠',
+'calzoneman':	'â™ ',
 }
 
 SoundFilters_Array = {
@@ -249,8 +249,8 @@ CustomCaptions_Array = {
 }
 
 UnicodeChars_Array = [
-'★', '☆', '▲', '▼', '♥', '♪', '♿', '⚒', '♕', '✉', '☏', '♠', '→', 
-'☑', '☒', '✡', '☪', '✝', '☭', '☯', 'Ⓐ', '☕', '♨', '¥', '©', '∞',
+'â˜…', 'â˜†', 'â–²', 'â–¼', 'â™¥', 'â™ª', 'â™¿', 'âš’', 'â™•', 'âœ‰', 'â˜', 'â™ ', 'â†’', 
+'â˜‘', 'â˜’', 'âœ¡', 'â˜ª', 'âœ', 'â˜­', 'â˜¯', 'â’¶', 'â˜•', 'â™¨', 'Â¥', 'Â©', 'âˆž',
 ];
 
 ChannelGalleries_Array = [
@@ -400,7 +400,7 @@ ChannelDatabase=[
 ['http://www.youtube.com/watch?v=jd2-Nf86jvA', 'Weather Girls - Koi No Tenki Yohou'],
 ['', 'Anime songs'],
 ['http://www.youtube.com/watch?v=fJ_DH7jzoxQ', 'Ai No Tenshi (Perfect Blue)'],
-['http://www.youtube.com/watch?v=ZNu_NV5PEM8', 'Chu☆ - Miko Miko Naasu - Ai No Teema'],
+['http://www.youtube.com/watch?v=ZNu_NV5PEM8', 'Chuâ˜† - Miko Miko Naasu - Ai No Teema'],
 ['http://www.youtube.com/watch?v=l65_QPNZ_k8', 'Hommarju feat. MAKI - Yamato Nadeshiko Education (Seitokai Yakuindomo OP)'],
 ['http://www.youtube.com/watch?v=dQbaJquz_jo', 'Kayo Sakata - Shoujo Q (Pani Poni Dash! OP)'],
 ['http://www.youtube.com/watch?v=nLSFxQijz6U', 'Kotoko - Princess Bride'],
@@ -443,7 +443,7 @@ var USERCONFIG = {
 	"logo":getOrDefault(CHANNEL.name+"_logo", "no"),
 	"logourl":getOrDefault(CHANNEL.name+"_logourl", ""),
 	"logoht":getOrDefault(CHANNEL.name+"_logoht", 250),
-	"header":getOrDefault(CHANNEL.name+"_header", "detached"),
+	"header":getOrDefault(CHANNEL.name+"_header", "fixed"),
 	"css":getOrDefault(CHANNEL.name+"_css", "no"),
 	"csscode":getOrDefault(CHANNEL.name+"_csscode", ""),
 	"modhash":getOrDefault(CHANNEL.name+"_modhash", ""),
@@ -851,7 +851,7 @@ function changeMOTD() {
 		RulesBtn_HTML=="" ? RulesBtn_HTML='No rules.' : '';
 		rulesbtnwrap = $('<div id="rulesbtnwrap" />').appendTo("#motd");
 		rulesbtn = $('<button id="rules-btn" class="btn btn-default btn-sm" />')
-		  .text(RulesBtn_Caption+' ▸')
+		  .text(RulesBtn_Caption+' â–¸')
 		  .appendTo(rulesbtnwrap)
 		  .on("click", function() {
 			toggleDiv(rulespanel);
@@ -1321,7 +1321,7 @@ function formatOrderedList() {
 	for (i=1; i<len; i++) {
 		item=$("#queue .queue_entry:nth-child("+i+")").data("media");
 		link=formatURL(item);
-		list.push(item.title+' ■■ '+link+' ■■ ['+item.duration+']');
+		list.push(item.title+' â– â–  '+link+' â– â–  ['+item.duration+']');
 		list.sort();
 	}
 	return list.join('\n');
@@ -1633,7 +1633,7 @@ function showChatHelp() {
 	if (UI_ChatSpeak=="1") {
 		body.append('<strong>Voice commands</strong><br /><br />');
 		html='<li><code>!say</code> - text speaking in english (<i>!say Hello!</i>)</li>'
-		  + '<li><code>!mow</code> - text speaking in polish (<i>!mow Chrząszcz brzmi w trzcinie.</i>)';
+		  + '<li><code>!mow</code> - text speaking in polish (<i>!mow ChrzÄ…szcz brzmi w trzcinie.</i>)';
 		$('<ul />').html(html).appendTo(body);
 	}
 	arr = {
@@ -1728,7 +1728,7 @@ function showModPanel() {
 		} else if (name==CLIENT.name) {
 			html+='<i class="glyphicon glyphicon-comment"></i> '
 			  + '<i class="glyphicon glyphicon-user"></i> '
-			  + '(to: '+CLIENT.name+') → '+mess
+			  + '(to: '+CLIENT.name+') â†’ '+mess
 			  + '<br /><br />';
 		}
 	}
@@ -1755,9 +1755,9 @@ function showInfo() {
 		li1=$(".queue_active").next();
 		li2=li1.next();
 		li3=li2.next();
-		li1.length>0 ? arr.push(' 1▸ '+li1.children("a").html()) : '';
-		li2.length>0 ? arr.push(' // 2▸ '+li2.children("a").html()) : '';
-		li3.length>0 ? arr.push(' // 3▸ '+li3.children("a").html()) : '';
+		li1.length>0 ? arr.push(' 1â–¸ '+li1.children("a").html()) : '';
+		li2.length>0 ? arr.push(' // 2â–¸ '+li2.children("a").html()) : '';
+		li3.length>0 ? arr.push(' // 3â–¸ '+li3.children("a").html()) : '';
 		text+=arr.join("");
 		arr.length<3 ? text+=' // END OF PLAYLIST //' : '';
 		mediainfo.html('<marquee scrollamount="5">'+text+'</marquee>');
@@ -2372,7 +2372,7 @@ if (UI_Favicon=="1" && Favicon_URL!="") {
 
 // changing carets to unicode characters
 
-$("nav .caret, #cs-edit-dd-toggle .caret").removeClass('caret').html(' ▾');
+$("nav .caret, #cs-edit-dd-toggle .caret").removeClass('caret').html(' â–¾');
 
 // adding important messages to "Options"
 
@@ -2430,7 +2430,7 @@ if (UI_HeaderDropMenu=="1") {
 	headerdrop = $('<li id="headerdrop" class="dropdown" />')
 	  .insertAfter("#home-link");
 	$('<a class="dropdown-toggle" data-toggle="dropdown" href="#" />')
-	  .html(HeaderDropMenu_Title+' ▾')
+	  .html(HeaderDropMenu_Title+' â–¾')
 	  .appendTo(headerdrop);
 	headermenu = $('<ul id="headermenu" class="dropdown-menu" />')
 	  .appendTo(headerdrop);
@@ -2787,19 +2787,19 @@ if (UI_FontsBtn=="1") {
 	fontsbtnwrap = $('<div id="fontsbtnwrap" />').appendTo(fontspanel);
 
 	FontsArray = [
-		['background:white', 'white', '■'],
-		['background:gold', 'yellow', '■'],
-		['background:orange', 'orange', '■'],
-		['background:#FFBBFF', 'pink', '■'],
-		['background:red', 'red', '■'],
-		['background:limegreen', 'lime', '■'],
-		['background:green', 'green', '■'],
-		['background:aqua', 'aqua', '■'],
-		['background:blue', 'blue', '■'],
-		['background:#660099', 'violet', '■'],
-		['background:#660000', 'brown', '■'],
-		['background:silver', 'silver', '■'],
-		['background:black', 'black', '■'],
+		['background:white', 'white', 'â– '],
+		['background:gold', 'yellow', 'â– '],
+		['background:orange', 'orange', 'â– '],
+		['background:#FFBBFF', 'pink', 'â– '],
+		['background:red', 'red', 'â– '],
+		['background:limegreen', 'lime', 'â– '],
+		['background:green', 'green', 'â– '],
+		['background:aqua', 'aqua', 'â– '],
+		['background:blue', 'blue', 'â– '],
+		['background:#660099', 'violet', 'â– '],
+		['background:#660000', 'brown', 'â– '],
+		['background:silver', 'silver', 'â– '],
+		['background:black', 'black', 'â– '],
 		['background:black; color:white', 'bw', 'a'],
 		['background:white; font-weight:bold; color:black', 'b', 'B'],
 		['background:white; font-style:italic; color:black', 'i', 'I'],
@@ -3061,9 +3061,9 @@ if (UI_EmbeddingMedia=="1" && (EmbeddingMedia_Images!="" || EmbeddingMedia_Video
 		  + 'Click on image or double click on video to open in the new tab.\n'
 		  + 'All videos are muted by default, if autoplay - click to unmute, else click to play.\n\n'
 		  + 'This channel supports following types of links (specified as CSS codes):\n'
-		  + '■ Images - ';
+		  + 'â–  Images - ';
 		  (EmbeddingMedia_Images!="") ? txt+=EmbeddingMedia_Images : 'none';
-		txt += '\n■ Videos - ';
+		txt += '\nâ–  Videos - ';
 		  (EmbeddingMedia_Videos!="") ? txt+=EmbeddingMedia_Videos : 'none';
 		alert(txt);
 	});
@@ -3297,8 +3297,8 @@ if ($("#plonotification").length>0) {
 
 // rearranging footer
 
-html='<br />CyTube Plus 4.5 · Copyright &copy; 2013-2014 Zimny Lech · '
-  + 'Free source on <a href="http://github.com/zimny-lech/CyTube-Plus" target="_blank">GitHub</a> · '
+html='<br />Missery Cytube Suite 4.5 Â· Copyright &copy; 2015 Missery Â· '
+  + 'Free source on <a href="http://github.com/zimny-lech/CyTube-Plus" target="_blank">GitHub</a> Â· '
   + '<a href="http://github.com/zimny-lech/CyTube-Plus/wiki" target="_blank">Wiki</a>';
 $(".credit").append(html);
 
@@ -3521,7 +3521,7 @@ $("#chatline").on("keydown", function(ev) {
 			meta={};
 			if (COMMAND) {
 				socket.emit("chatMsg", {msg:_msg});
-				msg='➥ '+msg;
+				msg='âž¥ '+msg;
 				COMMAND=false;
 			}
 			if (USEROPTS.adminhat && CLIENT.rank>=255) {
@@ -3571,7 +3571,7 @@ $("#chatbtn").on("click", function() {
 		msg=prepareMessage(msg.trim());
 		if (COMMAND) {
 			socket.emit("chatMsg", {msg:_msg});
-			msg='➥ '+msg;
+			msg='âž¥ '+msg;
 			COMMAND=false;
 		}
 		socket.emit("chatMsg", {msg:msg});
