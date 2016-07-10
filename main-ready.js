@@ -196,8 +196,8 @@ MOTDAutoLogo_Array = [
 ];
 
 MOTDTabs_Array = [
-['Home',	'<span class="whalecum">Welcome to FearDemonTV!</span>'],
-['Advertising',	'<marquee>We currently do not have advertisements</marquee>'],
+['Home',	'Welcome to FearDemonTV'],
+['Advertising',	'No advetisements atm'],
 ['Schedule',	'Schedule:<br /><br /><ul><li>Monday: ...</li><li>Tuesday: ...</li><li>Wendesday: ...</li><li>Thursday: ...</li><li>Friday: ...</li><li>Saturday: ...</li><li>Sunday: ...</li></ul>'],
 ['Contact',	'Contact:<br /><br />Email - ...<br />Skype - ...'],
 ];
