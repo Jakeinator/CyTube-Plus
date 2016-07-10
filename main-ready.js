@@ -2425,7 +2425,7 @@ if (UI_HeaderDropMenu=="1") {
 	headerdrop = $('<li id="headerdrop" class="dropdown" />')
 	  .insertAfter("#home-link");
 	$('<a class="dropdown-toggle" data-toggle="dropdown" href="#" />')
-	  .html(HeaderDropMenu_Title+' â–¾')
+	  .html(HeaderDropMenu_Title+' ▾')
 	  .appendTo(headerdrop);
 	headermenu = $('<ul id="headermenu" class="dropdown-menu" />')
 	  .appendTo(headerdrop);
