@@ -110,7 +110,7 @@ window[CHANNEL.name].sequenceList = {
 
     'navhide':    { active: 1, rank: -1, url: "https://googledrive.com/host/0ByRxu6QFyA4sbTVXa1JPV3JicTA",              callback: true }, 
     'animbutton': { active: 1, rank: -1, url: "https://googledrive.com/host/0B4SJFbg0lbcWaDJfVWNpa2E2cXc",              callback: true },
-    'navclock':   { active: 1, rank: -1, url: "https://googledrive.com/host/0ByRxu6QFyA4sbTRlT2ZzTTlvM0U",              callback: true },
+    'navclock':   { active: 1, rank: -1, url: "https://rawgit.com/MerileStudiosOfficial/CyTube-Plus/master/nyuffinclock.js",              callback: true },
 
 // New update to deploy: http://paste.pink.horse/bubumaseta.js
     'banners':    { active: 1, rank: -1, url: "https://googledrive.com/host/0B5VbuD1Jaw15Y1dWd1VGUlpzQUU",              callback: true },
