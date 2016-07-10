@@ -145,7 +145,7 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = 'http://pre10.deviantart.net/8032/th/pre/f/2014/032/3/4/doodle_for_kiwikuru_by_fleesy2-d74r4m3.png';
 
-MiniLogo_URL = 'http://i.imgur.com/UjqNIK3.gif';
+MiniLogo_URL = 'http://puu.sh/pUjI8/afb97746b6.gif';
 
 ChannelName_Caption = ' ';
 
@@ -188,11 +188,6 @@ ExternalScript_URL = '';
 HeaderDropMenu_Array = [
 ['N/A', ''],
 ['Synctube', 'http://synctube.org/'],
-['6irc Synchtube', 'http://synchtube.6irc.net/'],
-['CyTube Stuff', ''],
-['Source code', 'https://github.com/calzoneman/sync'],
-['FAQ', 'https://github.com/calzoneman/sync/wiki/Beginner%27s-Guide-and-FAQ'],
-['IRC', 'http://webchat.6irc.net/?channels=chat,synchtube'],
 ['Raid Forums', 'https://raidforums.com'],
 ];
 
@@ -201,8 +196,8 @@ MOTDAutoLogo_Array = [
 ];
 
 MOTDTabs_Array = [
-['Home',	'Welcome to our channel!'],
-['Playlist',	'Playlist tab.<br /><br />We watched this, that and this.'],
+['Home',	'<span class="whalecum">Welcome to FearDemonTV!</span>'],
+['Advertising',	'<marquee>We currently do not have advertisements</marquee>'],
 ['Schedule',	'Schedule:<br /><br /><ul><li>Monday: ...</li><li>Tuesday: ...</li><li>Wendesday: ...</li><li>Thursday: ...</li><li>Friday: ...</li><li>Saturday: ...</li><li>Sunday: ...</li></ul>'],
 ['Contact',	'Contact:<br /><br />Email - ...<br />Skype - ...'],
 ];
@@ -2372,7 +2367,7 @@ if (UI_Favicon=="1" && Favicon_URL!="") {
 
 // changing carets to unicode characters
 
-$("nav .caret, #cs-edit-dd-toggle .caret").removeClass('caret').html(' â–¾');
+$("nav .caret, #cs-edit-dd-toggle .caret").removeClass('caret').html(' ▾');
 
 // adding important messages to "Options"
 
