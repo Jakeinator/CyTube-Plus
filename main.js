@@ -147,7 +147,7 @@ Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
 MiniLogo_URL = 'https://i.imgur.com/3ZxKV0x.png';
 
-ChannelName_Caption = 'CyTube Plus';
+ChannelName_Caption = 'Oneshot City';
 
 HeaderDropMenu_Title = 'Synch';
 
