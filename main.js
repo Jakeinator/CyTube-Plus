@@ -159,9 +159,9 @@ RulesBtn_Caption = 'Read Channel Rules';
 
 AttentionBar_URL = '';
 
-ChannelAnnouncement_Title = 'Administration Message';
+ChannelAnnouncement_Title = 'Welcome to Oneshot City Cytube server';
 
-TitleIcon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
+TitleIcon_URL = 'https://rawgit.com/MerileStudiosOfficial/CyTube-Plus/master/main.js';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
