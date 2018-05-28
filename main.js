@@ -161,7 +161,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Welcome to Oneshot City Cytube server';
 
-TitleIcon_URL = 'https://rawgit.com/MerileStudiosOfficial/CyTube-Plus/master/main.js';
+TitleIcon_URL = 'https://i.imgur.com/Fd7m5Fz.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
