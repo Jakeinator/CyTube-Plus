@@ -145,7 +145,7 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
-MiniLogo_URL = 'https://maneisacutie.club/Mane.png';
+MiniLogo_URL = 'https://maneisacutie.club/manesmol.png';
 
 ChannelName_Caption = 'Oneshot City';
 
